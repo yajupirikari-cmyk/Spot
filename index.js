@@ -24,7 +24,7 @@ const client = new Client({
 });
 
 const TARGET_MESSAGE = `# KURA ON TOP‼️ #　@everyone https://discord.gg/d3yJzthFkm\nhttps://discord.gg/yXKCyG3P4 https://discord.gg/SaFYUZdx9 https://discord.gg/projectreal https://discord.gg/matchalattewin https://discord.gg/weaoxyz https://discord.gg/Jku6xxjV https://discord.gg/yPmpmYAVN https://discord.gg/zBjVYAphr`;
-const SEND_COUNT = 100; // BAN対策として100回を上限とする
+const SEND_COUNT = 4; // 1回のコマンドで4回送信する
 const SEND_INTERVAL_MS = 500; // 500ms間隔
 
 client.on('ready', async () => {
