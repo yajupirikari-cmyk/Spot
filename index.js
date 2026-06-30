@@ -23,7 +23,7 @@ const client = new Client({
     intents: [GatewayIntentBits.Guilds] 
 });
 
-const TARGET_MESSAGE = `KURA ON TOP‼️　@everyone https://discord.gg/KW9fTH9F
+const TARGET_MESSAGE = `KURA ON TOP‼️　@everyone https://discord.gg/D6PGKFKZEq
 KURA ON TOP‼️　@everyone https://discord.gg/ZCUPxXkPN6 
 # Kuraに入らないなら、ネットやめてください🤣チー牛が減っても誰も心配しませんよ🤣親は、チー牛に取り柄がなくなって心配するかもしれないけど🤣
 # Kuraに入らないなら、ネットやめてください🤣チー牛が減っても誰も心配しませんよ🤣親は、チー牛に取り柄がなくなって心配するかもしれないけど🤣`;
