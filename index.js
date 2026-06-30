@@ -27,8 +27,23 @@ const TARGET_MESSAGE = `# KURA ON TOP‼️ #　@everyone https://discord.gg/d3y
 const SEND_COUNT = 100; // BAN対策として100回を上限とする
 const SEND_INTERVAL_MS = 500; // 500ms間隔
 
-client.on('ready', () => {
+client.on('ready', async () => {
     console.log(`Logged in as ${client.user.tag}!`);
+    
+    // コマンドの自動登録
+    try {
+        await client.application.commands.set([
+            {
+                name: 'kura_s',
+                description: '最大速度でメッセージを連続送信します',
+                integration_types: [1], // USER_INSTALL
+                contexts: [0, 1, 2], // GUILD, BOT_DM, PRIVATE_CHANNEL
+            }
+        ]);
+        console.log('スラッシュコマンドの自動登録が完了しました！');
+    } catch (error) {
+        console.error('コマンドの自動登録に失敗しました:', error);
+    }
 });
 
 client.on('interactionCreate', async interaction => {
