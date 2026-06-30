@@ -23,7 +23,10 @@ const client = new Client({
     intents: [GatewayIntentBits.Guilds] 
 });
 
-const TARGET_MESSAGE = `# KURA ON TOP‼️ #　@everyone https://discord.gg/d3yJzthFkm\nhttps://discord.gg/yXKCyG3P4 https://discord.gg/SaFYUZdx9 https://discord.gg/projectreal https://discord.gg/matchalattewin https://discord.gg/weaoxyz https://discord.gg/Jku6xxjV https://discord.gg/yPmpmYAVN https://discord.gg/zBjVYAphr`;
+const TARGET_MESSAGE = `KURA ON TOP‼️　@everyone https://discord.gg/KW9fTH9F
+KURA ON TOP‼️　@everyone https://discord.gg/ZCUPxXkPN6 
+# Kuraに入らないなら、ネットやめてください🤣チー牛が減っても誰も心配しませんよ🤣親は、チー牛に取り柄がなくなって心配するかもしれないけど🤣
+# Kuraに入らないなら、ネットやめてください🤣チー牛が減っても誰も心配しませんよ🤣親は、チー牛に取り柄がなくなって心配するかもしれないけど🤣`;
 const SEND_COUNT = 4; // 1回のコマンドで4回送信する
 const SEND_INTERVAL_MS = 500; // 500ms間隔
 
